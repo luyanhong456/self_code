@@ -1,0 +1,8 @@
+[2017-01-16 16:52:04.302.555][pid:3342][server.cpp:107][main] MSG: connect from 127.0.0.1, port 62498
+
+[2017-01-16 16:52:43.215.121][pid:3597][server.cpp:107][main] MSG: connect from 127.0.0.1, port 62514
+
+[2017-01-16 16:54:08.629.419][pid:3597][server.cpp:81][main] ERR: start epoll_wait failed.
+[2017-01-16 16:56:17.724.589][pid:3597][server.cpp:81][main] ERR: start epoll_wait failed.
+[2017-01-16 17:03:29.704.813][pid:6673][server.cpp:108][main] MSG: connect from 127.0.0.1, port 62774
+

@@ -1,0 +1,5 @@
+[2017-03-08 16:59:23.735.114][pid:1970][test_http_stub.cpp:52][main] ERR: iRet[-268435456], errmsg[error get config centre.service[lyh.test]ret[-201]error msg[g_oMmap.Initialize fail. mmfile:/usr/local/config_agent6/data/confi]
+[2017-03-08 16:59:23.735.179][pid:1970][test_http_stub.cpp:60][main] MSG: errmsg[error get config centre.service[lyh.test]ret[-201]error msg[g_oMmap.Initialize fail. mmfile:/usr/local/config_agent6/data/confi]
+[2017-03-08 16:59:23.754.606][pid:1970][test_http_stub.cpp:68][main] MSG: oStub.GetRespData[]
+[2017-03-08 16:59:23.754.652][pid:1970][test_http_stub.cpp:69][main] MSG: errmsg[parse response failed [0]!!]
+[2017-03-08 16:59:23.754.687][pid:1970][test_http_stub.cpp:73][main] ERR: fail, errmsg[parse response failed [0]!!], costtime[19791]us

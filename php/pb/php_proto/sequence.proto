@@ -1,0 +1,10 @@
+package ad.sequence;
+
+message GetReq {
+	required string name = 1;				//name
+}
+
+message SeqResp {
+	required int32		seq = 1;				//seq id  
+}
+

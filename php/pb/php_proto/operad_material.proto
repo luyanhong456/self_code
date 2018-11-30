@@ -1,0 +1,21 @@
+package ad.operad;
+
+// 素材key
+message COperAdMaterialKeyItem {
+    required uint32 dwCommodityId = 1;
+    required uint32 dwMaterialId  = 2;
+}
+
+// 接口: 根据素材key(列表)删除素材信息
+// 命令字: /fapp/operad/ad/delautoadbykey
+// 请求包:
+message COperAdDelMaterialByKeyReq {
+    repeated COperAdMaterialKeyItem vMaterialKey    = 1;  // 待删除素材key列表
+}
+
+// 响应包
+message COperAdDelMaterialByKeyResp {
+    repeated COperAdMaterialKeyItem vDelMaterialKey = 1;  // 已删除素材key列表
+}
+
+

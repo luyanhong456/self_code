@@ -1,0 +1,56 @@
+package ad.peomanage; //广告主端dmp 人群管理
+
+//查询人群列表
+message CQueryTaskListReq
+{
+	required bytes sellerpin = 1; //卖家pin
+    optional bytes name = 2; //任务名
+    optional bytes taskdesc = 3;//任务描述
+}
+
+message CQueryTaskItem
+{
+    optional uint32 id = 1;
+    optional bytes name = 2; //任务名称
+    optional bytes taskdesc = 3; //任务描述
+    optional uint32 usercountlevel = 4; //量级
+    optional uint32 status = 5; //状态,1:处理中,2:已生效
+    optional uint32 extusercount = 6; //扩展量级
+    optional uint32 delflag = 7; //删除标志,0:正常,1:已删除
+    optional uint32 inserttime = 8;
+    optional uint32 lastupdtime = 9;
+}
+
+message CQueryTaskListResp
+{
+	required int32 code = 1;//返回码,0:正常,其他:错误
+	required bytes msg = 2;
+	required bytes sellerpin = 3;
+	repeated CQueryTaskItem vTaskData = 4;//任务列表
+}
+
+//删除任务
+message CDeleteTaskReq
+{
+    required bytes sellerpin = 1;//卖家pin
+    required uint32 id = 2; //任务id
+}
+
+message CDeleteTaskResp
+{
+    required int32 code = 1;//返回码,0:正常,其他:删除失败
+    required bytes msg = 2;
+}
+//扩展量级
+message CExUserLevelReq
+{
+    required bytes sellerpin = 1;//卖家pin
+    required uint32 id = 2; //任务id
+    required uint32 exusercount = 3; //扩展的量级
+}
+
+message CExUserLevelResp
+{
+    required int32 code = 1;//返回码,0:正常,其他:删除失败
+    required bytes msg = 2;
+}

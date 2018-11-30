@@ -1,0 +1,23 @@
+#!/usr/bin/expect
+
+set ip [lindex $argv 0]
+
+set timeout 10
+
+spawn ssh -l boss $ip 
+expect "password:"
+send "Boss@idc\n"
+
+sleep 3
+
+send "ps -ef|grep mrjx.usergw\n"
+expect {
+    "bossapp" {
+        send "exit\n"
+    }   
+    "boss" {
+        send "exit\n"
+    }   
+}
+
+expect eof 
