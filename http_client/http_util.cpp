@@ -1,17 +1,3 @@
-/**************************************************************************
-* Copyright (C), 1998-2050, Tencent.
-*
-* 模块名称 :
-* 文 件 名 : http_util.cpp
-* 功能描述 :
-*
-* 其它说明 :
-*
-* 修改历史 :
-*   日  期               修改人                修改内容
-*   2014-4-8            frankhuang            创建文件
-*
-**************************************************************************/
 
 #ifndef __CURL_CURL_H
     #include <curl/curl.h>
@@ -39,7 +25,7 @@ CHttpUtil::~CHttpUtil()
 
 
 /**
- * 初始化
+ * 锟斤拷始锟斤拷
  */
 int CHttpUtil::Init()
 {
@@ -47,7 +33,7 @@ int CHttpUtil::Init()
 }
 
 /**
- * http 调用
+ * http 锟斤拷锟斤拷
  */
 int CHttpUtil::HttpCall(const CHttpRequest& rRequest, CHttpResponse& rReponse)
 {
@@ -151,7 +137,7 @@ int CHttpUtil::HttpCall(const CHttpRequest& rRequest, CHttpResponse& rReponse)
 }
 
 /**
- * 获取出错信息
+ * 锟斤拷取锟斤拷锟斤拷锟斤拷息
  */
 char* CHttpUtil::GetLastError()
 {
@@ -159,7 +145,7 @@ char* CHttpUtil::GetLastError()
 }
 
 /**
- * 写数据回调函数
+ * 写锟斤拷锟捷回碉拷锟斤拷锟斤拷
  */
 int CHttpUtil::WriteData(char* pszData,
                                 uint32_t dwSize,

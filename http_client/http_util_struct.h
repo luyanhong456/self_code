@@ -1,18 +1,3 @@
-/**************************************************************************
-* Copyright (C), 1998-2050, Tencent.
-*
-* Ä£¿éÃû³Æ :
-* ÎÄ ¼þ Ãû : curl_util_vars.h
-* ¹¦ÄÜÃèÊö :
-*
-* ÆäËüËµÃ÷ :
-*
-* ÐÞ¸ÄÀúÊ· :
-*   ÈÕ  ÆÚ               ÐÞ¸ÄÈË                ÐÞ¸ÄÄÚÈÝ
-*   2014-4-5            frankhuang            ´´½¨ÎÄ¼þ
-*
-**************************************************************************/
-
 
 #ifndef _HTTP_UTIL_VARS_H_
 #define _HTTP_UTIL_VARS_H_
@@ -27,7 +12,7 @@ using namespace std;
 #define PRINT_ENDL(b) ((b)?"\n":"")
 
 /*
- * HTTPÇëÇó
+ * HTTPï¿½ï¿½ï¿½ï¿½
  */
 class CHttpRequest
 {
@@ -44,7 +29,7 @@ public:
     ~CHttpRequest(){}
 public:
     /**
-     * ÉèÖÃ³¬Ê±Ê±¼ä
+     * ï¿½ï¿½ï¿½Ã³ï¿½Ê±Ê±ï¿½ï¿½
      */
     inline void SetTimeout(uint32_t dwTimeout)
     {
@@ -52,7 +37,7 @@ public:
     }
 
     /**
-     * »ñÈ¡³¬Ê±Ê±¼ä
+     * ï¿½ï¿½È¡ï¿½ï¿½Ê±Ê±ï¿½ï¿½
      */
     inline const uint32_t& GetTimeout()const
     {
@@ -60,7 +45,7 @@ public:
     }
 
     /**
-     *  ÉèÖÃÖ÷»úµØÖ·
+     *  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·
      */
     inline void SetHost(const string& sHost)
     {
@@ -68,7 +53,7 @@ public:
     }
 
     /*
-     * »ñÈ¡hostÐÅÏ¢
+     * ï¿½ï¿½È¡hostï¿½ï¿½Ï¢
      */
     inline const string& GetHost()const
     {
@@ -76,7 +61,7 @@ public:
     }
 
     /**
-     * ÉèÖÃ´úÀí·þÎñÆ÷µØÖ·
+     * ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·
      */
     inline void SetProxyAddr(const string& sProxyAddr)
     {
@@ -84,7 +69,7 @@ public:
     }
 
     /**
-     * »ñÈ¡´úÀí·þÎñÆ÷µØÖ·
+     * ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·
      */
     inline const string& GetProxyAddr()const
     {
@@ -92,7 +77,7 @@ public:
     }
 
     /**
-     * ÉèÖÃ´úÀí·þÎñÆ÷¶Ë¿Ú
+     * ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½
      */
     inline void SetProxyPort(uint16_t wPort)
     {
@@ -100,7 +85,7 @@ public:
     }
 
     /**
-     * »ñÈ¡´úÀí·þÎñÆ÷¶Ë¿Ú
+     * ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½
      */
     inline const uint16_t& GetProxyPort()const
     {
@@ -108,7 +93,7 @@ public:
     }
 
     /**
-     * ÉèÖÃhttpÇëÇópost²ÎÊý
+     * ï¿½ï¿½ï¿½ï¿½httpï¿½ï¿½ï¿½ï¿½postï¿½ï¿½ï¿½ï¿½
      */ 
     inline void SetPostData(const string& sPostData)
     {
@@ -116,7 +101,7 @@ public:
     }
 
     /**
-     * »ñÈ¡post²ÎÊý
+     * ï¿½ï¿½È¡postï¿½ï¿½ï¿½ï¿½
      */
     inline const string& GetPostData()const
     {
@@ -124,7 +109,7 @@ public:
     }
 
     /**
-     * ÉèÖÃcookieÐÅÏ¢
+     * ï¿½ï¿½ï¿½ï¿½cookieï¿½ï¿½Ï¢
      */
     inline void SetCookie(const string& sCookie)
     {
@@ -132,7 +117,7 @@ public:
     }
     
     /**
-     * »ñÈ¡cooke
+     * ï¿½ï¿½È¡cooke
      */
     inline const string& GetCookie()const
     {
@@ -140,7 +125,7 @@ public:
     }
 
     /**
-     * ÉèÖÃhttpÍ·
+     * ï¿½ï¿½ï¿½ï¿½httpÍ·
      */
     inline void SetHeader(const string& sHeader)
     {
@@ -148,7 +133,7 @@ public:
     }
     
     /**
-     * »ñÈ¡http±¨ÎÄÍ·
+     * ï¿½ï¿½È¡httpï¿½ï¿½ï¿½ï¿½Í·
      */
     inline const vector<string>& GetHeader()const
     {
@@ -156,7 +141,7 @@ public:
     }
 
     /**
-     * Êä³ö×Ö·û´®ÀàÐÍµÄ²ÎÊý
+     * ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ²ï¿½ï¿½ï¿½
      */
     inline const string ToString(bool bIndent=true)const
     {
@@ -190,16 +175,16 @@ public:
     }
 private:
     uint32_t dwTimeout;
-    string   sHost; //hostµØÖ·
-    string   sProxyAddr; //´úÀíµØÖ·
-    uint16_t wProxyPort; //´úÀí¶Ë¿Ú
-    string   sPostData; //Á¬½Ó²ÎÊý
-    string   sCookie; //cookie²ÎÊý
-    vector<string> vecHeader; //http headerÊý¾Ý
+    string   sHost; //hostï¿½ï¿½Ö·
+    string   sProxyAddr; //ï¿½ï¿½ï¿½ï¿½ï¿½Ö·
+    uint16_t wProxyPort; //ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½
+    string   sPostData; //ï¿½ï¿½ï¿½Ó²ï¿½ï¿½ï¿½
+    string   sCookie; //cookieï¿½ï¿½ï¿½ï¿½
+    vector<string> vecHeader; //http headerï¿½ï¿½ï¿½ï¿½
 };
 
 /**
- * HTTP ÏìÓ¦
+ * HTTP ï¿½ï¿½Ó¦
  */
 class CHttpResponse
 {
@@ -209,7 +194,7 @@ public:
     ~CHttpResponse(){}
 public:
     /**
-     * ÉèÖÃhttp code
+     * ï¿½ï¿½ï¿½ï¿½http code
      */
     inline void SetHttpCode(uint32_t dwHttpCode)
     {
@@ -217,7 +202,7 @@ public:
     }
 
     /**
-     * »ñÈ¡httpcode
+     * ï¿½ï¿½È¡httpcode
      */
     inline const uint32_t& GetHttpCode()const
     {
@@ -232,7 +217,7 @@ public:
 
 
     /**
-     * ÉèÖÃhttp±¨ÎÄ
+     * ï¿½ï¿½ï¿½ï¿½httpï¿½ï¿½ï¿½ï¿½
      */
     inline void SetHttpContent(const string& sContent)
     {
@@ -240,7 +225,7 @@ public:
     }
 
     /**
-     * »ñÈ¡http±¨ÎÄ
+     * ï¿½ï¿½È¡httpï¿½ï¿½ï¿½ï¿½
      */
     inline const string& GetHttpContent()const
     {
@@ -253,7 +238,7 @@ public:
     }
 
     /**
-     * Êä³ö×Ö·û´®ÀàÐÍµÄ²ÎÊý
+     * ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ²ï¿½ï¿½ï¿½
      */
     inline const string ToString(bool bIndent=true)const
     {
@@ -268,7 +253,7 @@ public:
 
 private:
     uint32_t dwHttpCode;    //http code
-    string   sHttpContent; //http ±¨ÎÄ
+    string   sHttpContent; //http ï¿½ï¿½ï¿½ï¿½
 };
 
 #endif /* CURL_UTIL_VARS_H_ */
