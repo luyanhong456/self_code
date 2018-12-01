@@ -1,0 +1,30 @@
+[2017-05-08 11:22:10.598.243][pid:11825][ad.recommend.cpp:42][Input] MSG: input[oInput:{ "sSign":"53c4aa052366180d1ca4d3bb64682a00", "ddwSid":888, "sUserId":"3A96AA61EDC6E8ADDCAC5256720B9810", "dwUserType":1, "dwTagId":1, "dwSpecId":
+1, "dwWidth":220, "dwHeight":120, "dwSkuCnt":2, "dwClientIp":3073886824, "sDomain":"qzone.qq.com", "sBundleName":"", "ddwRequestTime":1467178888 }]
+[2017-05-08 11:22:10.598.653][pid:11824][mtcp.cpp:239][multi_tcp] MSG: ev_err[0], evt[4], new_evt[1]
+[2017-05-08 11:22:10.599.793][pid:11825][mtcp.cpp:239][multi_tcp] MSG: ev_err[0], evt[4], new_evt[1]
+[2017-05-08 11:22:10.603.961][pid:11824][mtcp.cpp:239][multi_tcp] MSG: ev_err[2], evt[1], new_evt[1]
+[2017-05-08 11:22:10.605.741][pid:11824][ad.recommend.cpp:190][Process] MSG: =====  Process() success=====, costtime[8707]us
+[2017-05-08 11:22:10.606.462][pid:11824][ad.recommend.cpp:42][Input] MSG: input[oInput:{ "sSign":"53c4aa052366180d1ca4d3bb64682a00", "ddwSid":888, "sUserId":"3A96AA61EDC6E8ADDCAC5256720B9810", "dwUserType":1, "dwTagId":1, "dwSpecId":
+1, "dwWidth":220, "dwHeight":120, "dwSkuCnt":2, "dwClientIp":3073886824, "sDomain":"qzone.qq.com", "sBundleName":"", "ddwRequestTime":1467178888 }]
+[2017-05-08 11:22:10.606.913][pid:11825][mtcp.cpp:239][multi_tcp] MSG: ev_err[2], evt[1], new_evt[1]
+[2017-05-08 11:22:10.607.947][pid:11824][mtcp.cpp:239][multi_tcp] MSG: ev_err[0], evt[4], new_evt[1]
+[2017-05-08 11:22:10.608.282][pid:11825][ad.recommend.cpp:190][Process] MSG: =====  Process() success=====, costtime[10501]us
+[2017-05-08 11:22:10.608.817][pid:11825][ad.recommend.cpp:42][Input] MSG: input[oInput:{ "sSign":"53c4aa052366180d1ca4d3bb64682a00", "ddwSid":888, "sUserId":"3A96AA61EDC6E8ADDCAC5256720B9810", "dwUserType":1, "dwTagId":1, "dwSpecId":
+1, "dwWidth":220, "dwHeight":120, "dwSkuCnt":2, "dwClientIp":3073886824, "sDomain":"qzone.qq.com", "sBundleName":"", "ddwRequestTime":1467178888 }]
+[2017-05-08 11:22:10.610.242][pid:11825][mtcp.cpp:239][multi_tcp] MSG: ev_err[0], evt[4], new_evt[1]
+[2017-05-08 11:22:10.613.748][pid:11824][mtcp.cpp:239][multi_tcp] MSG: ev_err[2], evt[1], new_evt[1]
+[2017-05-08 11:22:10.614.953][pid:11824][ad.recommend.cpp:190][Process] MSG: =====  Process() success=====, costtime[8585]us
+[2017-05-08 11:22:10.615.538][pid:11824][ad.recommend.cpp:42][Input] MSG: input[oInput:{ "sSign":"53c4aa052366180d1ca4d3bb64682a00", "ddwSid":888, "sUserId":"3A96AA61EDC6E8ADDCAC5256720B9810", "dwUserType":1, "dwTagId":1, "dwSpecId":
+1, "dwWidth":220, "dwHeight":120, "dwSkuCnt":2, "dwClientIp":3073886824, "sDomain":"qzone.qq.com", "sBundleName":"", "ddwRequestTime":1467178888 }]
+[2017-05-08 11:22:10.615.552][pid:11825][mtcp.cpp:239][multi_tcp] MSG: ev_err[2], evt[1], new_evt[1]
+[2017-05-08 11:22:10.616.746][pid:11825][ad.recommend.cpp:190][Process] MSG: =====  Process() success=====, costtime[8024]us
+[2017-05-08 11:22:10.617.062][pid:11824][mtcp.cpp:239][multi_tcp] MSG: ev_err[0], evt[4], new_evt[1]
+[2017-05-08 11:22:10.617.486][pid:11825][ad.recommend.cpp:42][Input] MSG: input[oInput:{ "sSign":"53c4aa052366180d1ca4d3bb64682a00", "ddwSid":888, "sUserId":"3A96AA61EDC6E8ADDCAC5256720B9810", "dwUserType":1, "dwTagId":1, "dwSpecId":
+1, "dwWidth":220, "dwHeight":120, "dwSkuCnt":2, "dwClientIp":3073886824, "sDomain":"qzone.qq.com", "sBundleName":"", "ddwRequestTime":1467178888 }]
+[2017-05-08 11:22:10.618.894][pid:11825][mtcp.cpp:239][multi_tcp] MSG: ev_err[0], evt[4], new_evt[1]
+[2017-05-08 11:22:10.624.310][pid:11825][mtcp.cpp:239][multi_tcp] MSG: ev_err[2], evt[1], new_evt[1]
+[2017-05-08 11:22:10.625.629][pid:11825][ad.recommend.cpp:190][Process] MSG: =====  Process() success=====, costtime[8238]us
+[2017-05-08 11:22:10.625.953][pid:11824][mtcp.cpp:239][multi_tcp] MSG: ev_err[2], evt[1], new_evt[1]
+[2017-05-08 11:22:10.626.638][pid:11825][ad.recommend.cpp:42][Input] MSG: input[oInput:{ "sSign":"53c4aa052366180d1ca4d3bb64682a00", "ddwSid":888, "sUserId":"3A96AA61EDC6E8ADDCAC5256720B9810", "dwUserType":1, "dwTagId":1, "dwSpecId":
+1, "dwWidth":220, "dwHeight":120, "dwSkuCnt":2, "dwClientIp":3073886824, "sDomain":"qzone.qq.com", "sBundleName":"", "ddwRequestTime":1467178888 }]
+[2017-05-08 11:22:10.627.354][pid:11824][ad.recommend.cpp:190][Process] MSG: =====  Process() success=====, costtime[11913]us

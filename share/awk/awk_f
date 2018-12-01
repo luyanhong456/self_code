@@ -1,0 +1,2 @@
+$1=="name"{print $0;getline;print $0;}  
+$1=="age"{print $0}  

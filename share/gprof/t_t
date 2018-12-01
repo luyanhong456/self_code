@@ -1,0 +1,371 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+100.01      0.01     0.01        1    10.00    10.00  std::vector<CTest, std::allocator<CTest> >::push_back(CTest const&)
+  0.00      0.01     0.00    60000     0.00     0.00  ad::serialize::CJBuffer::Indent()
+  0.00      0.01     0.00    40004     0.00     0.00  __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::base() const
+  0.00      0.01     0.00    30002     0.00     0.00  __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::__normal_iterator(CTest* const&)
+  0.00      0.01     0.00    20001     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::end()
+  0.00      0.01     0.00    20000     0.00     0.00  ad::serialize::CJBuffer::operator&(boss::serialize::CDummy&)
+  0.00      0.01     0.00    20000     0.00     0.00  boss::serialize::CDummy::GetName()
+  0.00      0.01     0.00    20000     0.00     0.00  boss::serialize::CDummy::CDummy(char const*)
+  0.00      0.01     0.00    20000     0.00     0.00  bool __gnu_cxx::operator!=<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&)
+  0.00      0.01     0.00    10001     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::begin()
+  0.00      0.01     0.00    10000     0.00     0.00  std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer::GetJson()
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer::CJBuffer(bool, int, int, int)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer::~CJBuffer()
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer::operator&(std::string&)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer::operator&(unsigned int)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(CTest&)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <CTest>(CTest&)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&)
+  0.00      0.01     0.00    10000     0.00     0.00  ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&)
+  0.00      0.01     0.00    10000     0.00     0.00  __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator++()
+  0.00      0.01     0.00    10000     0.00     0.00  __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator*() const
+  0.00      0.01     0.00    10000     0.00     0.00  std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  0.00      0.01     0.00        4     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::size() const
+  0.00      0.01     0.00        4     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator()
+  0.00      0.01     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<CTest>::max_size() const
+  0.00      0.01     0.00        2     0.00     0.00  CTest::~CTest()
+  0.00      0.01     0.00        2     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() const
+  0.00      0.01     0.00        2     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::max_size() const
+  0.00      0.01     0.00        2     0.00     0.00  void std::_Destroy_aux<false>::__destroy<CTest*>(CTest*, CTest*)
+  0.00      0.01     0.00        2     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_M_deallocate(CTest*, unsigned long)
+  0.00      0.01     0.00        2     0.00     0.00  CTest* std::__uninitialized_copy<false>::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*)
+  0.00      0.01     0.00        2     0.00     0.00  CTest* std::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*)
+  0.00      0.01     0.00        2     0.00     0.00  CTest* std::__uninitialized_copy_a<CTest*, CTest*, CTest>(CTest*, CTest*, CTest*, std::allocator<CTest>&)
+  0.00      0.01     0.00        2     0.00     0.00  CTest* std::__uninitialized_move_a<CTest*, CTest*, std::allocator<CTest> >(CTest*, CTest*, CTest*, std::allocator<CTest>&)
+  0.00      0.01     0.00        2     0.00     0.00  void std::_Destroy<CTest*>(CTest*, CTest*)
+  0.00      0.01     0.00        2     0.00     0.00  void std::_Destroy<CTest*, CTest>(CTest*, CTest*, std::allocator<CTest>&)
+  0.00      0.01     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.01     0.00        1     0.00     0.00  CTest::CTest(CTest const&)
+  0.00      0.01     0.00        1     0.00     0.00  CTest::CTest()
+  0.00      0.01     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<CTest>::deallocate(CTest*, unsigned long)
+  0.00      0.01     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<CTest>::allocate(unsigned long, void const*)
+  0.00      0.01     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<CTest>::construct(CTest*, CTest const&)
+  0.00      0.01     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<CTest>::new_allocator()
+  0.00      0.01     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<CTest>::~new_allocator()
+  0.00      0.01     0.00        1     0.00     0.00  __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::difference_type __gnu_cxx::operator-<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&)
+  0.00      0.01     0.00        1     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const
+  0.00      0.01     0.00        1     0.00     0.00  std::allocator<CTest>::allocator()
+  0.00      0.01     0.00        1     0.00     0.00  std::allocator<CTest>::~allocator()
+  0.00      0.01     0.00        1     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_M_allocate(unsigned long)
+  0.00      0.01     0.00        1     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::_Vector_impl()
+  0.00      0.01     0.00        1     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::~_Vector_impl()
+  0.00      0.01     0.00        1     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_base()
+  0.00      0.01     0.00        1     0.00     0.00  std::_Vector_base<CTest, std::allocator<CTest> >::~_Vector_base()
+  0.00      0.01     0.00        1     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&)
+  0.00      0.01     0.00        1     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::vector()
+  0.00      0.01     0.00        1     0.00     0.00  std::vector<CTest, std::allocator<CTest> >::~vector()
+  0.00      0.01     0.00        1     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.01     0.00        1     0.00     0.00  void std::_Destroy<CTest>(CTest*)
+  0.00      0.01     0.00        1     0.00     0.00  operator new(unsigned long, void*)
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 99.99% of 0.01 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.01                 main [1]
+                0.01    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::push_back(CTest const&) [2]
+                0.00    0.00   10000/10000       std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [16]
+                0.00    0.00       1/1           CTest::CTest() [46]
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::vector() [62]
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::~vector() [63]
+                0.00    0.00       1/2           CTest::~CTest() [33]
+-----------------------------------------------
+                0.01    0.00       1/1           main [1]
+[2]    100.0    0.01    0.00       1         std::vector<CTest, std::allocator<CTest> >::push_back(CTest const&) [2]
+                0.00    0.00       1/20001       std::vector<CTest, std::allocator<CTest> >::end() [10]
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+-----------------------------------------------
+                0.00    0.00   10000/60000       ad::serialize::CJBuffer::operator&(unsigned int) [21]
+                0.00    0.00   10000/60000       ad::serialize::CJBuffer::operator&(std::string&) [20]
+                0.00    0.00   20000/60000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(CTest&) [23]
+                0.00    0.00   20000/60000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[7]      0.0    0.00    0.00   60000         ad::serialize::CJBuffer::Indent() [7]
+-----------------------------------------------
+                0.00    0.00       2/40004       std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+                0.00    0.00       2/40004       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::difference_type __gnu_cxx::operator-<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [52]
+                0.00    0.00   40000/40004       bool __gnu_cxx::operator!=<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [14]
+[8]      0.0    0.00    0.00   40004         __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::base() const [8]
+-----------------------------------------------
+                0.00    0.00   10001/30002       std::vector<CTest, std::allocator<CTest> >::begin() [15]
+                0.00    0.00   20001/30002       std::vector<CTest, std::allocator<CTest> >::end() [10]
+[9]      0.0    0.00    0.00   30002         __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::__normal_iterator(CTest* const&) [9]
+-----------------------------------------------
+                0.00    0.00       1/20001       std::vector<CTest, std::allocator<CTest> >::push_back(CTest const&) [2]
+                0.00    0.00   20000/20001       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[10]     0.0    0.00    0.00   20001         std::vector<CTest, std::allocator<CTest> >::end() [10]
+                0.00    0.00   20001/30002       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::__normal_iterator(CTest* const&) [9]
+-----------------------------------------------
+                0.00    0.00   20000/20000       ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [26]
+[11]     0.0    0.00    0.00   20000         ad::serialize::CJBuffer::operator&(boss::serialize::CDummy&) [11]
+                0.00    0.00   20000/20000       boss::serialize::CDummy::GetName() [12]
+-----------------------------------------------
+                0.00    0.00   20000/20000       ad::serialize::CJBuffer::operator&(boss::serialize::CDummy&) [11]
+[12]     0.0    0.00    0.00   20000         boss::serialize::CDummy::GetName() [12]
+-----------------------------------------------
+                0.00    0.00   20000/20000       ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [26]
+[13]     0.0    0.00    0.00   20000         boss::serialize::CDummy::CDummy(char const*) [13]
+-----------------------------------------------
+                0.00    0.00   20000/20000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[14]     0.0    0.00    0.00   20000         bool __gnu_cxx::operator!=<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [14]
+                0.00    0.00   40000/40004       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::base() const [8]
+-----------------------------------------------
+                0.00    0.00       1/10001       std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+                0.00    0.00   10000/10001       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[15]     0.0    0.00    0.00   10001         std::vector<CTest, std::allocator<CTest> >::begin() [15]
+                0.00    0.00   10001/30002       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::__normal_iterator(CTest* const&) [9]
+-----------------------------------------------
+                0.00    0.00   10000/10000       main [1]
+[16]     0.0    0.00    0.00   10000         std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [16]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer::CJBuffer(bool, int, int, int) [18]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&) [25]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer::GetJson() [17]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer::~CJBuffer() [19]
+-----------------------------------------------
+                0.00    0.00   10000/10000       std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [16]
+[17]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer::GetJson() [17]
+-----------------------------------------------
+                0.00    0.00   10000/10000       std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [16]
+[18]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer::CJBuffer(bool, int, int, int) [18]
+                0.00    0.00   10000/10000       std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [29]
+-----------------------------------------------
+                0.00    0.00   10000/10000       std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [16]
+[19]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer::~CJBuffer() [19]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [26]
+[20]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer::operator&(std::string&) [20]
+                0.00    0.00   10000/60000       ad::serialize::CJBuffer::Indent() [7]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [26]
+[21]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer::operator&(unsigned int) [21]
+                0.00    0.00   10000/60000       ad::serialize::CJBuffer::Indent() [7]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&) [25]
+[22]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+                0.00    0.00   20000/60000       ad::serialize::CJBuffer::Indent() [7]
+                0.00    0.00   20000/20001       std::vector<CTest, std::allocator<CTest> >::end() [10]
+                0.00    0.00   20000/20000       bool __gnu_cxx::operator!=<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [14]
+                0.00    0.00   10000/10001       std::vector<CTest, std::allocator<CTest> >::begin() [15]
+                0.00    0.00   10000/10000       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator*() const [28]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <CTest>(CTest&) [24]
+                0.00    0.00   10000/10000       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator++() [27]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <CTest>(CTest&) [24]
+[23]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(CTest&) [23]
+                0.00    0.00   20000/60000       ad::serialize::CJBuffer::Indent() [7]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [26]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[24]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <CTest>(CTest&) [24]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(CTest&) [23]
+-----------------------------------------------
+                0.00    0.00   10000/10000       std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [16]
+[25]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&) [25]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(CTest&) [23]
+[26]     0.0    0.00    0.00   10000         ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [26]
+                0.00    0.00   20000/20000       boss::serialize::CDummy::CDummy(char const*) [13]
+                0.00    0.00   20000/20000       ad::serialize::CJBuffer::operator&(boss::serialize::CDummy&) [11]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer::operator&(std::string&) [20]
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer::operator&(unsigned int) [21]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[27]     0.0    0.00    0.00   10000         __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator++() [27]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [22]
+[28]     0.0    0.00    0.00   10000         __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator*() const [28]
+-----------------------------------------------
+                0.00    0.00   10000/10000       ad::serialize::CJBuffer::CJBuffer(bool, int, int, int) [18]
+[29]     0.0    0.00    0.00   10000         std::operator|(std::_Ios_Openmode, std::_Ios_Openmode) [29]
+-----------------------------------------------
+                0.00    0.00       4/4           std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const [53]
+[30]     0.0    0.00    0.00       4         std::vector<CTest, std::allocator<CTest> >::size() const [30]
+-----------------------------------------------
+                0.00    0.00       1/4           std::vector<CTest, std::allocator<CTest> >::~vector() [63]
+                0.00    0.00       3/4           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[31]     0.0    0.00    0.00       4         std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() [31]
+-----------------------------------------------
+                0.00    0.00       1/3           __gnu_cxx::new_allocator<CTest>::allocate(unsigned long, void const*) [48]
+                0.00    0.00       2/3           std::vector<CTest, std::allocator<CTest> >::max_size() const [35]
+[32]     0.0    0.00    0.00       3         __gnu_cxx::new_allocator<CTest>::max_size() const [32]
+-----------------------------------------------
+                0.00    0.00       1/2           main [1]
+                0.00    0.00       1/2           void std::_Destroy<CTest>(CTest*) [65]
+[33]     0.0    0.00    0.00       2         CTest::~CTest() [33]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<CTest, std::allocator<CTest> >::max_size() const [35]
+[34]     0.0    0.00    0.00       2         std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() const [34]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const [53]
+[35]     0.0    0.00    0.00       2         std::vector<CTest, std::allocator<CTest> >::max_size() const [35]
+                0.00    0.00       2/2           std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() const [34]
+                0.00    0.00       2/3           __gnu_cxx::new_allocator<CTest>::max_size() const [32]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::_Destroy<CTest*>(CTest*, CTest*) [42]
+[36]     0.0    0.00    0.00       2         void std::_Destroy_aux<false>::__destroy<CTest*>(CTest*, CTest*) [36]
+                0.00    0.00       1/1           void std::_Destroy<CTest>(CTest*) [65]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Vector_base<CTest, std::allocator<CTest> >::~_Vector_base() [60]
+                0.00    0.00       1/2           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[37]     0.0    0.00    0.00       2         std::_Vector_base<CTest, std::allocator<CTest> >::_M_deallocate(CTest*, unsigned long) [37]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::deallocate(CTest*, unsigned long) [47]
+-----------------------------------------------
+                0.00    0.00       2/2           CTest* std::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*) [39]
+[38]     0.0    0.00    0.00       2         CTest* std::__uninitialized_copy<false>::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*) [38]
+-----------------------------------------------
+                0.00    0.00       2/2           CTest* std::__uninitialized_copy_a<CTest*, CTest*, CTest>(CTest*, CTest*, CTest*, std::allocator<CTest>&) [40]
+[39]     0.0    0.00    0.00       2         CTest* std::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*) [39]
+                0.00    0.00       2/2           CTest* std::__uninitialized_copy<false>::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*) [38]
+-----------------------------------------------
+                0.00    0.00       2/2           CTest* std::__uninitialized_move_a<CTest*, CTest*, std::allocator<CTest> >(CTest*, CTest*, CTest*, std::allocator<CTest>&) [41]
+[40]     0.0    0.00    0.00       2         CTest* std::__uninitialized_copy_a<CTest*, CTest*, CTest>(CTest*, CTest*, CTest*, std::allocator<CTest>&) [40]
+                0.00    0.00       2/2           CTest* std::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*) [39]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[41]     0.0    0.00    0.00       2         CTest* std::__uninitialized_move_a<CTest*, CTest*, std::allocator<CTest> >(CTest*, CTest*, CTest*, std::allocator<CTest>&) [41]
+                0.00    0.00       2/2           CTest* std::__uninitialized_copy_a<CTest*, CTest*, CTest>(CTest*, CTest*, CTest*, std::allocator<CTest>&) [40]
+-----------------------------------------------
+                0.00    0.00       2/2           void std::_Destroy<CTest*, CTest>(CTest*, CTest*, std::allocator<CTest>&) [43]
+[42]     0.0    0.00    0.00       2         void std::_Destroy<CTest*>(CTest*, CTest*) [42]
+                0.00    0.00       2/2           void std::_Destroy_aux<false>::__destroy<CTest*>(CTest*, CTest*) [36]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<CTest, std::allocator<CTest> >::~vector() [63]
+                0.00    0.00       1/2           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[43]     0.0    0.00    0.00       2         void std::_Destroy<CTest*, CTest>(CTest*, CTest*, std::allocator<CTest>&) [43]
+                0.00    0.00       2/2           void std::_Destroy<CTest*>(CTest*, CTest*) [42]
+-----------------------------------------------
+                                   1             __static_initialization_and_destruction_0(int, int) [44]
+                0.00    0.00       1/1           __do_global_ctors_aux [591]
+[44]     0.0    0.00    0.00       1+1       __static_initialization_and_destruction_0(int, int) [44]
+                                   1             __static_initialization_and_destruction_0(int, int) [44]
+-----------------------------------------------
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::construct(CTest*, CTest const&) [49]
+[45]     0.0    0.00    0.00       1         CTest::CTest(CTest const&) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[46]     0.0    0.00    0.00       1         CTest::CTest() [46]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_M_deallocate(CTest*, unsigned long) [37]
+[47]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<CTest>::deallocate(CTest*, unsigned long) [47]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_M_allocate(unsigned long) [56]
+[48]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<CTest>::allocate(unsigned long, void const*) [48]
+                0.00    0.00       1/3           __gnu_cxx::new_allocator<CTest>::max_size() const [32]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[49]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<CTest>::construct(CTest*, CTest const&) [49]
+                0.00    0.00       1/1           operator new(unsigned long, void*) [66]
+                0.00    0.00       1/1           CTest::CTest(CTest const&) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<CTest>::allocator() [54]
+[50]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<CTest>::new_allocator() [50]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<CTest>::~allocator() [55]
+[51]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<CTest>::~new_allocator() [51]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[52]     0.0    0.00    0.00       1         __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::difference_type __gnu_cxx::operator-<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [52]
+                0.00    0.00       2/40004       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::base() const [8]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[53]     0.0    0.00    0.00       1         std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const [53]
+                0.00    0.00       4/4           std::vector<CTest, std::allocator<CTest> >::size() const [30]
+                0.00    0.00       2/2           std::vector<CTest, std::allocator<CTest> >::max_size() const [35]
+                0.00    0.00       1/1           unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::_Vector_impl() [57]
+[54]     0.0    0.00    0.00       1         std::allocator<CTest>::allocator() [54]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::new_allocator() [50]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::~_Vector_impl() [58]
+[55]     0.0    0.00    0.00       1         std::allocator<CTest>::~allocator() [55]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::~new_allocator() [51]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+[56]     0.0    0.00    0.00       1         std::_Vector_base<CTest, std::allocator<CTest> >::_M_allocate(unsigned long) [56]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::allocate(unsigned long, void const*) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_base() [59]
+[57]     0.0    0.00    0.00       1         std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::_Vector_impl() [57]
+                0.00    0.00       1/1           std::allocator<CTest>::allocator() [54]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::~_Vector_base() [60]
+[58]     0.0    0.00    0.00       1         std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::~_Vector_impl() [58]
+                0.00    0.00       1/1           std::allocator<CTest>::~allocator() [55]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::vector() [62]
+[59]     0.0    0.00    0.00       1         std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_base() [59]
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::_Vector_impl() [57]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::~vector() [63]
+[60]     0.0    0.00    0.00       1         std::_Vector_base<CTest, std::allocator<CTest> >::~_Vector_base() [60]
+                0.00    0.00       1/2           std::_Vector_base<CTest, std::allocator<CTest> >::_M_deallocate(CTest*, unsigned long) [37]
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::~_Vector_impl() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::push_back(CTest const&) [2]
+[61]     0.0    0.00    0.00       1         std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&) [61]
+                0.00    0.00       3/4           std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() [31]
+                0.00    0.00       2/40004       __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::base() const [8]
+                0.00    0.00       2/2           CTest* std::__uninitialized_move_a<CTest*, CTest*, std::allocator<CTest> >(CTest*, CTest*, CTest*, std::allocator<CTest>&) [41]
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const [53]
+                0.00    0.00       1/10001       std::vector<CTest, std::allocator<CTest> >::begin() [15]
+                0.00    0.00       1/1           __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::difference_type __gnu_cxx::operator-<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [52]
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_M_allocate(unsigned long) [56]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::construct(CTest*, CTest const&) [49]
+                0.00    0.00       1/2           void std::_Destroy<CTest*, CTest>(CTest*, CTest*, std::allocator<CTest>&) [43]
+                0.00    0.00       1/2           std::_Vector_base<CTest, std::allocator<CTest> >::_M_deallocate(CTest*, unsigned long) [37]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[62]     0.0    0.00    0.00       1         std::vector<CTest, std::allocator<CTest> >::vector() [62]
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_base() [59]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[63]     0.0    0.00    0.00       1         std::vector<CTest, std::allocator<CTest> >::~vector() [63]
+                0.00    0.00       1/4           std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() [31]
+                0.00    0.00       1/2           void std::_Destroy<CTest*, CTest>(CTest*, CTest*, std::allocator<CTest>&) [43]
+                0.00    0.00       1/1           std::_Vector_base<CTest, std::allocator<CTest> >::~_Vector_base() [60]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const [53]
+[64]     0.0    0.00    0.00       1         unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::_Destroy_aux<false>::__destroy<CTest*>(CTest*, CTest*) [36]
+[65]     0.0    0.00    0.00       1         void std::_Destroy<CTest>(CTest*) [65]
+                0.00    0.00       1/2           CTest::~CTest() [33]
+-----------------------------------------------
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<CTest>::construct(CTest*, CTest const&) [49]
+[66]     0.0    0.00    0.00       1         operator new(unsigned long, void*) [66]
+-----------------------------------------------
+
+Index by function name
+
+  [44] __static_initialization_and_destruction_0(int, int) (test_json_gprof.cpp) [49] __gnu_cxx::new_allocator<CTest>::construct(CTest*, CTest const&) [31] std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator()
+  [16] std::string ad::serialize::to_json<std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&, bool, int) [50] __gnu_cxx::new_allocator<CTest>::new_allocator() [59] std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_base()
+   [7] ad::serialize::CJBuffer::Indent() [51] __gnu_cxx::new_allocator<CTest>::~new_allocator() [60] std::_Vector_base<CTest, std::allocator<CTest> >::~_Vector_base()
+  [17] ad::serialize::CJBuffer::GetJson() [9] __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::__normal_iterator(CTest* const&) [38] CTest* std::__uninitialized_copy<false>::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*)
+  [18] ad::serialize::CJBuffer::CJBuffer(bool, int, int, int) [27] __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator++() [61] std::vector<CTest, std::allocator<CTest> >::_M_insert_aux(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >, CTest const&)
+  [19] ad::serialize::CJBuffer::~CJBuffer() [52] __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::difference_type __gnu_cxx::operator-<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [10] std::vector<CTest, std::allocator<CTest> >::end()
+  [11] ad::serialize::CJBuffer::operator&(boss::serialize::CDummy&) [14] bool __gnu_cxx::operator!=<CTest*, std::vector<CTest, std::allocator<CTest> > >(__gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&, __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > > const&) [15] std::vector<CTest, std::allocator<CTest> >::begin()
+  [20] ad::serialize::CJBuffer::operator&(std::string&) [32] __gnu_cxx::new_allocator<CTest>::max_size() const [2] std::vector<CTest, std::allocator<CTest> >::push_back(CTest const&)
+  [21] ad::serialize::CJBuffer::operator&(unsigned int) [8] __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::base() const [62] std::vector<CTest, std::allocator<CTest> >::vector()
+  [22] ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(std::vector<CTest, std::allocator<CTest> >&) [28] __gnu_cxx::__normal_iterator<CTest*, std::vector<CTest, std::allocator<CTest> > >::operator*() const [63] std::vector<CTest, std::allocator<CTest> >::~vector()
+  [23] ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator&<CTest>(CTest&) [34] std::_Vector_base<CTest, std::allocator<CTest> >::_M_get_Tp_allocator() const [39] CTest* std::uninitialized_copy<CTest*, CTest*>(CTest*, CTest*, CTest*)
+  [24] ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <CTest>(CTest&) [53] std::vector<CTest, std::allocator<CTest> >::_M_check_len(unsigned long, char const*) const [40] CTest* std::__uninitialized_copy_a<CTest*, CTest*, CTest>(CTest*, CTest*, CTest*, std::allocator<CTest>&)
+  [25] ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <std::vector<CTest, std::allocator<CTest> > >(std::vector<CTest, std::allocator<CTest> >&) [30] std::vector<CTest, std::allocator<CTest> >::size() const [41] CTest* std::__uninitialized_move_a<CTest*, CTest*, std::allocator<CTest> >(CTest*, CTest*, CTest*, std::allocator<CTest>&)
+  [12] boss::serialize::CDummy::GetName() [35] std::vector<CTest, std::allocator<CTest> >::max_size() const [64] unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
+  [13] boss::serialize::CDummy::CDummy(char const*) [54] std::allocator<CTest>::allocator() [65] void std::_Destroy<CTest>(CTest*)
+  [26] ad::serialize::CJBuffer& CTest::serialize<ad::serialize::CJBuffer>(ad::serialize::CJBuffer&) [55] std::allocator<CTest>::~allocator() [42] void std::_Destroy<CTest*>(CTest*, CTest*)
+  [45] CTest::CTest(CTest const&) [36] void std::_Destroy_aux<false>::__destroy<CTest*>(CTest*, CTest*) [43] void std::_Destroy<CTest*, CTest>(CTest*, CTest*, std::allocator<CTest>&)
+  [46] CTest::CTest()         [56] std::_Vector_base<CTest, std::allocator<CTest> >::_M_allocate(unsigned long) [29] std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
+  [33] CTest::~CTest()        [57] std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::_Vector_impl() [66] operator new(unsigned long, void*)
+  [47] __gnu_cxx::new_allocator<CTest>::deallocate(CTest*, unsigned long) [58] std::_Vector_base<CTest, std::allocator<CTest> >::_Vector_impl::~_Vector_impl()
+  [48] __gnu_cxx::new_allocator<CTest>::allocate(unsigned long, void const*) [37] std::_Vector_base<CTest, std::allocator<CTest> >::_M_deallocate(CTest*, unsigned long)

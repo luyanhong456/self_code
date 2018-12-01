@@ -1,0 +1,10 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 20.00      0.01     0.01                             std::string ad::serialize::to_json<CTest>(CTest&, bool, int)
+ 20.00      0.02     0.01                             ad::serialize::CJBuffer::operator&(boss::serialize::CDummy&)
+ 20.00      0.03     0.01                             ad::serialize::CJBuffer& ad::serialize::CJBuffer::operator<< <CTest>(CTest&)
+ 20.00      0.04     0.01                             Json::valueToQuotedString(char const*)
+ 20.00      0.05     0.01                             std::operator|(std::_Ios_Openmode, std::_Ios_Openmode)
