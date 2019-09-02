@@ -1,0 +1,2 @@
+git checkout -b test2 test1
+从分支test1创建分支test2
